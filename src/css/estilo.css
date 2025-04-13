@@ -8,20 +8,20 @@ body{
 }
  
 #container{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     min-height: 100vh;
 }
  
 header{
-    background: #000000;
-    color:#fff;
-    padding: 20px;
-    justify-content: space-around;
+    background: #000000;/*fundo preto*/
+    color:#fff; /*texto em branco*/
+    padding: 20px; /*espaçamento interno*/
+    justify-content: space-around; /*distribui os itens do menu*/
 }
  
 header nav ul{
-    list-style: none;
+    list-style: none; /*remoção dos pontinhos da lista*/
     padding: 0;
             /* top,bottom E right,left  */
     margin: 10px 0;
@@ -33,7 +33,7 @@ header nav ul li a{
     padding: 5px 10px;
 }
 header nav ul li a:hover{
-    text-decoration: underline 2px rgb(255, 255, 255);
+    text-decoration: underline 0px rgb(255, 255, 255);
 }
  
 #conteudo{
